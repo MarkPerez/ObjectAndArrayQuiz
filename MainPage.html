@@ -19,23 +19,27 @@
   
   <h1> This quiz is out of this world... </h1>
 
-<script src=Javascript.js></script>        
+       
 <form>
-    
-    
-  <input type="radio" name=firstquestion.optionA value=firstquestion.optionA checked> firstquestion.optionA<br>
-  <input type="radio" name="gender" value="female"> Female<br>
-  <input type="radio" name="gender" value="other"> Other
-
+ 
+<p>Click Next to continue!</p>    
 
 </form> 
-        
+    
 <div><button id="button1">Next</button></div><br> 
     
-<div id="demo"></div>
-    
-<div><button id="button2">Result</button></div><br>    
+<div id="demo"></div>        
 
+<form id="answers">
+  <input type="radio" name="option" value="A"> A
+  <input type="radio" name="option" value="B"> B
+  <input type="radio" name="option" value="C"> C
+</form>
+    
+<div><button id="button2">Submit</button></div><br>
+    
+    <div id="results"></div>
+    
 <script src=Javascript.js></script>  
     
 </body>
